@@ -254,6 +254,8 @@ ul#nav li.current a { color: #F06000; }
 }
 #resume h3 {
    font: 25px/30px 'opensans-bold', sans-serif;
+   /* color: #313131; */
+   margin-top: 10px;
 }
 
 #resume .header-col { padding-top: 9px; }
@@ -267,8 +269,8 @@ ul#nav li.current a { color: #F06000; }
 #resume .info {
    font: 16px/24px 'librebaskerville-italic', serif;
    color: #6E7881;
-   margin-bottom: 18px;
-   margin-top: 9px;
+   margin-bottom: 10px;
+   margin-top: 10px;
 }
 #resume .info span {
    margin-right: 5px;
@@ -342,7 +344,6 @@ ul#nav li.current a { color: #F06000; }
    width: 75%;
   	-moz-animation: premiere 2s ease;
   	-webkit-animation: premiere 2s ease;
-
 }
 .python{
    width: 70%;
@@ -350,7 +351,19 @@ ul#nav li.current a { color: #F06000; }
   	-webkit-animation: python 2s ease;
 }
 
+.tableau{
+   width: 80%;
+  	-moz-animation: tableau 2s ease;
+  	-webkit-animation: tableau 2s ease;
+}
 
+.javascript{
+   width: 60%;
+  	-moz-animation: javascript 2s ease;
+  	-webkit-animation: javascript 2s ease;
+}
+
+/* ---------------------------- */
 @-moz-keyframes photoshop {
   0%   { width: 0px;  }
   100% { width: 60%;  }
@@ -375,7 +388,17 @@ ul#nav li.current a { color: #F06000; }
   100% { width: 70%;  }
 }
 
+@-moz-keyframes tableau {
+  0%   { width: 0px;  }
+  100% { width: 80%;  }
+}
 
+@-moz-keyframes javascript {
+  0%   { width: 0px;  }
+  100% { width: 60%;  }
+}
+
+/* ---------------------------- */
 @-webkit-keyframes photoshop {
   0%   { width: 0px;  }
   100% { width: 60%;  }
@@ -397,7 +420,16 @@ ul#nav li.current a { color: #F06000; }
 @-webkit-keyframes python {
    0%   { width: 0px;  }
    100% { width: 70%;  }
-   
+}
+
+@-webkit-keyframes tableau {
+   0%   { width: 0px;  }
+   100% { width: 80%;  }
+}
+
+@-webkit-keyframes javascript {
+   0%   { width: 0px;  }
+   100% { width: 60%;  }
 }
 
 /* ------------------------------------------------------------------ */
@@ -491,6 +523,13 @@ ul#nav li.current a { color: #F06000; }
    font: 12px/18px 'opensans-light', sans-serif;
    color: #c6c7c7;
    margin-bottom: 0;
+}
+
+.company-logo {
+  float: left;
+  margin-right: 10px; 
+  width: 50px;
+  height: auto;
 }
 
 /* on hover */
